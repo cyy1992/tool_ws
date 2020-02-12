@@ -1,0 +1,15 @@
+<launch>
+
+	<node pkg="cyy_tools" type="merge_bags_node" name="merge_bags_node"  output="screen">
+		<param name="bag1" type="string" value="/media/cyy/CYY的移动硬盘/others/0910/2/thomas_2019-09-10-17-03-46.bag"/>
+
+		<param name="bag2_with_imu" type="string" value="/media/cyy/CYY的移动硬盘/others/0910/1/thomas_2019-09-10-17-03-47.bag"/>
+		
+		<param name="bag_merge" type="string" value="/media/cyy/CYY的移动硬盘/others/0910/thomas_2019-09-10-17-03-47_new.bag"/>
+		
+	
+	</node>	
+	
+  
+  
+</launch>
